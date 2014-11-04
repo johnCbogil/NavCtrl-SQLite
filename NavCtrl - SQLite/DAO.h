@@ -10,6 +10,8 @@
 #import "Company.h"
 #import "Product.h"
 #import "sqlite3.h"
+#import "Reachability.h"
+
 
 
 @interface DAO : NSObject

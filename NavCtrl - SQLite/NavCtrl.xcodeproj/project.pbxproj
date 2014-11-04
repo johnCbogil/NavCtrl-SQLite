@@ -28,7 +28,10 @@
 		AA3E1C9C19E33FA800AFFBEA /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = AA3E1C9B19E33FA800AFFBEA /* Product.m */; };
 		AA57036919DDB7C400C32282 /* GrandChildVC.m in Sources */ = {isa = PBXBuildFile; fileRef = AA57036719DDB7C400C32282 /* GrandChildVC.m */; };
 		AA57036A19DDB7C400C32282 /* GrandChildVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AA57036819DDB7C400C32282 /* GrandChildVC.xib */; };
+		AA7705B21A092BEA00B0C3FA /* Reachability-master in Resources */ = {isa = PBXBuildFile; fileRef = AA7705B11A092BEA00B0C3FA /* Reachability-master */; };
+		AA7705B51A092C1400B0C3FA /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = AA7705B41A092C1400B0C3FA /* Reachability.m */; };
 		AA7FBCFB19FAF24200C0AFC0 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = AA7FBCFA19FAF24200C0AFC0 /* libsqlite3.0.dylib */; };
+		AAAC0AB61A092ACB0090A4A5 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AAAC0AB51A092ACB0090A4A5 /* SystemConfiguration.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,7 +76,11 @@
 		AA57036619DDB7C400C32282 /* GrandChildVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrandChildVC.h; sourceTree = "<group>"; };
 		AA57036719DDB7C400C32282 /* GrandChildVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GrandChildVC.m; sourceTree = "<group>"; };
 		AA57036819DDB7C400C32282 /* GrandChildVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GrandChildVC.xib; sourceTree = "<group>"; };
+		AA7705B11A092BEA00B0C3FA /* Reachability-master */ = {isa = PBXFileReference; lastKnownFileType = folder; name = "Reachability-master"; path = "../../../../Downloads/Reachability-master"; sourceTree = "<group>"; };
+		AA7705B31A092C1400B0C3FA /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Reachability.h; path = "../../../../Downloads/Reachability-master/Reachability.h"; sourceTree = "<group>"; };
+		AA7705B41A092C1400B0C3FA /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Reachability.m; path = "../../../../Downloads/Reachability-master/Reachability.m"; sourceTree = "<group>"; };
 		AA7FBCFA19FAF24200C0AFC0 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = libsqlite3.0.dylib; sourceTree = "<group>"; };
+		AAAC0AB51A092ACB0090A4A5 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AAAC0AB61A092ACB0090A4A5 /* SystemConfiguration.framework in Frameworks */,
 				AA7FBCFB19FAF24200C0AFC0 /* libsqlite3.0.dylib in Frameworks */,
 				48A656B718163BF200746D36 /* CoreGraphics.framework in Frameworks */,
 				48A656B918163BF200746D36 /* UIKit.framework in Frameworks */,
@@ -103,6 +111,8 @@
 		48A656A818163BF200746D36 = {
 			isa = PBXGroup;
 			children = (
+				AA7705B31A092C1400B0C3FA /* Reachability.h */,
+				AA7705B41A092C1400B0C3FA /* Reachability.m */,
 				AA2F999719E489DF0066AFE6 /* DAO.h */,
 				AA2F999819E489DF0066AFE6 /* DAO.m */,
 				AA3E1C9719E33B6F00AFFBEA /* Company.h */,
@@ -122,6 +132,7 @@
 				48A656D318163BF200746D36 /* NavCtrlTests */,
 				48A656B318163BF200746D36 /* Frameworks */,
 				48A656B218163BF200746D36 /* Products */,
+				AA7705B11A092BEA00B0C3FA /* Reachability-master */,
 			);
 			sourceTree = "<group>";
 		};
@@ -137,6 +148,7 @@
 		48A656B318163BF200746D36 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AAAC0AB51A092ACB0090A4A5 /* SystemConfiguration.framework */,
 				AA7FBCFA19FAF24200C0AFC0 /* libsqlite3.0.dylib */,
 				48A656B418163BF200746D36 /* Foundation.framework */,
 				48A656B618163BF200746D36 /* CoreGraphics.framework */,
@@ -268,6 +280,7 @@
 				48A656BF18163BF200746D36 /* InfoPlist.strings in Resources */,
 				48A656C718163BF200746D36 /* Images.xcassets in Resources */,
 				48A656EC18163F8700746D36 /* ChildViewController.xib in Resources */,
+				AA7705B21A092BEA00B0C3FA /* Reachability-master in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +306,7 @@
 				AA2F999919E489DF0066AFE6 /* DAO.m in Sources */,
 				48A656C118163BF200746D36 /* main.m in Sources */,
 				AA57036919DDB7C400C32282 /* GrandChildVC.m in Sources */,
+				AA7705B51A092C1400B0C3FA /* Reachability.m in Sources */,
 				48A656EB18163F8700746D36 /* ChildViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
