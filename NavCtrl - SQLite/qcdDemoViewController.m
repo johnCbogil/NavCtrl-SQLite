@@ -17,9 +17,7 @@
 
 
 @interface qcdDemoViewController ()
-{
-    Reachability *internetReachableFoo;
-}
+
 
 @end
 
